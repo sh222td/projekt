@@ -1,6 +1,8 @@
 #side-menu {
-    margin-left:14.5%;
+    margin-left:160px;
+    margin-top:-0.1px;
     float:left;
+    position:absolute;
     background-color:#63AFD0;
     width:180px;
     height:300px;
@@ -14,11 +16,20 @@
     margin-left:15px;
     list-style: none;
     color:white;
-    
 }
 
 h3 {
     text-align:center;
+}
+
+#side-menu li:hover {
+    cursor: pointer;
+    background: lightskyblue;
+    color: #ffffff;
+}
+#submitButton:active {
+    background: darkblue;
+    color: #ffffff;
 }
 
 #side-menu a:link {color:white;}
